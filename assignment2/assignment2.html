@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            label {
+                margin-left: 10px;
+            }
+            canvas {
+                border: 2px solid black;
+                background-color: Beige;
+            }
+            input[type="range"]{
+                width: 300px;
+            }
+        </style>
+        <title>
+            Drone
+        </title>
+    </head>
+    <body>
+        <canvas id="canvas1" width="1400" height="650"></canvas>
+        <p>Fire up the engine to start controlling the drone. Destroy all obstacles with the weapon on the front of the drone.Be careful as the drone will crash if its body hits an obstacle.</p>
+        <label>Engine</label>
+        <input id="slider1" type="range" min="0" max="1">
+        <br>
+        <label>Direction</label>
+        <input id="slider2" type="range" min="0" max="3">
+        <br>
+        <label>Left & Right</label>
+        <input id="slider3" type="range" min="0" max="1400" width="300px">
+        <br>
+        <label>Up & Down</label>
+        <input id="slider4" type="range" min="0" max="550">
+        <script src="assignment2.js" id="module"></script>
+    </body>
+</html>
